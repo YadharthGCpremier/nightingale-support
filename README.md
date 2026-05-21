@@ -1,6 +1,6 @@
-# Nightingale OS Support Site
+# Nightingale-os Support Site
 
-A small static support page for the iOS app **Nightingale OS** (Apple ID 6769794835), published by **The Premier Health Group LLC**. It exists so that App Store reviewers and customer agencies have a public, login-free URL to reach our support information. The site is plain HTML and CSS with no build step, no JavaScript, and no external network requests.
+A small static support page for the iOS app **Nightingale-os** (Apple ID 6769794835), published by **The Premier Health Group LLC**. It exists so that App Store reviewers and customer agencies have a public, login-free URL to reach our support information. The site is plain HTML and CSS with no build step, no JavaScript, and no external network requests.
 
 ## Files
 
@@ -65,6 +65,6 @@ Set these in **App Store Connect** &rarr; **Nightingale-os** &rarr; the version 
 cd /Users/premierhealthgroup/projects/support-url
 git init
 git add .
-git commit -m "feat: initial Nightingale OS support page"
+git commit -m "feat: initial Nightingale-os support page"
 gh repo create nightingale-support --public --source=. --remote=origin --push
 ```
